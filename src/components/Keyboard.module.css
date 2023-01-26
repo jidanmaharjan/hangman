@@ -1,0 +1,26 @@
+.btn{
+    width: 100%;
+    background: orange;
+    color: white;
+    border: none;
+    padding: .5rem;
+    height: 70px;
+    font-size: 24px;
+    text-transform: capitalize;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:hover,:focus{
+    background: rgb(38, 206, 66);
+}
+
+.active,.active:hover{
+    background: rgb(89, 144, 196);
+}
+.inactive,.inactive:hover{
+    background: rgb(201, 199, 199);
+}
+.btn:disabled{
+    cursor: default;
+}
